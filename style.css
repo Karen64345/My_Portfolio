@@ -1,0 +1,132 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Dark background */
+    color: #fff; /* White text */
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1c1c1c; /* Slightly lighter background for header */
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #e94e77; /* Custom color for the logo text */
+    text-decoration: none;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a.active, nav a:hover {
+    color: #e94e77; /* Hover and active color for navigation links */
+}
+
+/* Home Section Styles */
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.home-img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 5px solid #e94e77; /* Border around profile picture */
+}
+
+.home-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.home-content h1 span {
+    color: #e94e77; /* Highlighted color for your name */
+}
+
+.home-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.typing-text span {
+    border-right: 2px solid #fff;
+    animation: typing 3s steps(20) infinite alternate;
+}
+
+/* Social Icons Styles */
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #e94e77; /* Hover color for social icons */
+}
+
+/* Button Styles */
+.btn {
+    display: inline-block;
+    background-color: #e94e77;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #c73a60; /* Hover effect for buttons */
+}
+
+/* Contact Section Styles */
+#contact {
+    padding: 50px 20px;
+    background-color: #1c1c1c;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #e94e77;
+}
+
+#contact p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+#contact a {
+    color: #e94e77;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Typing Animation */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}

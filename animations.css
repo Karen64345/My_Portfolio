@@ -1,0 +1,9 @@
+.typing-text {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+#highlighted-text {
+    font-weight: 700;  /* Bold the highlighted text */
+    color: #e94e77;   /* Color for the highlighted text */
+}
